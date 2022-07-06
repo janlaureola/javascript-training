@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Javascript Demo Page Two</title>
+        <link rel="stylesheet" type="text/css" href="fact.css">
+
+    </head>
+    <body>
+        <div class="wrapper">
+            <script src="fact.js"></script>
+            <h1>Javascript Demo Page Two: Factorials</h1>
+            <h2>Factorial Table</h2>
+            <form id="inform">
+                <p>Enter an upper bound for the factorial table:</p>
+                <br>
+                <input type="text" id="textin">
+            </form>
+            <br>
+            <button id="run_button" onclick="factTable(inform)">RUN</button>
+            <br><br>
+            <p>The Factorial Table</p>
+            <p id="textout"></p>
+            <br>
+        </div>
+    </body>
+</html>
